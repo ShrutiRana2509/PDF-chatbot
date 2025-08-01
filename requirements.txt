@@ -1,0 +1,8 @@
+streamlit
+langchain
+langchain-community
+langchain-groq
+openai
+ollama
+tiktoken
+PyPDF2
