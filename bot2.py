@@ -10,7 +10,7 @@ from langchain.chains import create_retrieval_chain
 from langchain.vectorstores.faiss import FAISS
 from langchain.document_loaders import PyPDFDirectoryLoader
 
-os.environ["GROQ_API_KEY"] = "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"
+os.environ["GROQ_API_KEY"] = "Your_api_key"
 
 llm = ChatGroq(
     groq_api_key=os.environ["GROQ_API_KEY"],
